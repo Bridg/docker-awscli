@@ -9,7 +9,9 @@ RUN apk --update add \
       python \
       py-pip \
       jq \
+      groff \
       curl \
+      less \
       bash && \
       pip install --upgrade awscli s3cmd && \
       mkdir /root/.aws
